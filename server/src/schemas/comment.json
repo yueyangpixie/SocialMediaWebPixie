@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/",
+  "type": "object",
+  "properties": {
+    "userId": {
+      "id": "userId",
+      "type": "integer"
+    },
+    "feedItemId": {
+      "id": "feedItemId",
+      "type": "integer"
+    },
+    "contents": {
+      "id": "contents",
+      "type": "string"
+    }
+  },
+  "required": [
+    "userId",
+    "feedItemId",
+    "contents"
+  ]
+}
