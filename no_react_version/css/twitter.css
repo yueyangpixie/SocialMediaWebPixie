@@ -1,0 +1,65 @@
+/* Makes links dark blue, even if they have been visited. (By default, the
+   browser will change the look of visited links.) */
+a,
+a:visited {
+  /* The color Facebook uses. */
+  color: #3b5998;
+}
+
+body {
+  padding-top: 60px;
+  /* I figured out the background color using Chrome's Inspect tool. */
+  background-color: #e9eaed;
+}
+.fb-status-update .list-inline {
+  margin-bottom: 0px;
+}
+.fb-search {
+  width: 295px !important;
+  border-radius: 30px / 20px ;
+  background-color: white !important;
+  border-right-color: transparent !important;
+  background-color: white !important;
+}
+.fb-search2 {
+  border-left-color: transparent !important;
+  border-radius: 30px / 20px ;
+  background-color: white !important;
+}
+.fb-command {
+  width: 550px !important;
+}
+
+.fb-status-update .panel-body {
+  padding-bottom: 5px;
+
+}
+.navbar button{
+  background-color: transparent;
+}
+
+
+
+/* Make the button white if clicked on, and remain white after clicking.
+   Facebook normally opens up a menu when you do this.
+   :active = user is currently interacting with the button.
+   :focus = user is currently interacting or has just interacted with the
+   button.
+   :active:focus = both at the same time
+
+
+/* Make the "John" and "Home" buttons have a dark blue background when
+   hovered over. */
+{
+  background-color: #2e467c;
+}
+
+/* Customize the look of active pills in trending widget */
+.fb-trending{
+  background-color: transparent;
+  /* Same color as the lightning bolt */
+  color: gray;
+  margin-right: 70px;
+  margin-left: 15px;
+
+}
